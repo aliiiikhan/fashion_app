@@ -6,13 +6,7 @@ class WelcomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Welcome Screen'),
-        leading: IconButton(
-          icon: Icon(Icons.arrow_back),
-          onPressed: () {
-            // Go back to the previous screen
-          },
-        ),
+        title: Center(child: Text('Welcome Screen')),
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
