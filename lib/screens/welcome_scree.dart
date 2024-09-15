@@ -24,7 +24,11 @@ class WelcomeScreen extends StatelessWidget {
                     height: 300,
                     width: 150,
                     decoration: BoxDecoration(
-                      color: Colors.amber,
+                      image: DecorationImage(
+                        image: AssetImage('assets/images/fashion2.jpeg'),
+                        fit: BoxFit.cover,
+                      ),
+                      // color: Colors.amber,
                       borderRadius: BorderRadius.circular(75),
                     ),
                   ),
@@ -35,7 +39,10 @@ class WelcomeScreen extends StatelessWidget {
                         height: 150,
                         width: 150,
                         decoration: BoxDecoration(
-                          color: Colors.amber,
+                          image: DecorationImage(
+                            image: AssetImage('assets/images/f5.jpeg'),
+                            fit: BoxFit.cover,
+                          ),
                           borderRadius: BorderRadius.circular(65),
                         ),
                       ),
@@ -44,7 +51,10 @@ class WelcomeScreen extends StatelessWidget {
                         height: 140,
                         width: 150,
                         decoration: BoxDecoration(
-                          color: Colors.amber,
+                          image: DecorationImage(
+                            image: AssetImage('assets/images/f6.jpeg'),
+                            fit: BoxFit.cover,
+                          ),
                           borderRadius: BorderRadius.circular(75),
                         ),
                       ),

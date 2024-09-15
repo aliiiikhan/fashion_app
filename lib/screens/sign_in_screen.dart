@@ -163,7 +163,9 @@ class SignInScreen extends StatelessWidget {
                       onPressed: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => Homepage()),
+                          MaterialPageRoute(
+                            builder: (context) => Homepage(),
+                          ),
                         );
                       },
                       child: Text(
@@ -196,25 +198,37 @@ class SignInScreen extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       Container(
-                        height: 80,
-                        width: 80,
+                        height: 50,
+                        width: 50,
                         decoration: BoxDecoration(
+                          image: DecorationImage(
+                            image: AssetImage('assets/images/google.jpeg'),
+                            fit: BoxFit.cover,
+                          ),
                           color: Colors.amber,
                           borderRadius: BorderRadius.circular(75),
                         ),
                       ),
                       Container(
-                        height: 80,
-                        width: 80,
+                        height: 50,
+                        width: 50,
                         decoration: BoxDecoration(
+                          image: DecorationImage(
+                            image: AssetImage('assets/images/apple.jpeg'),
+                            fit: BoxFit.cover,
+                          ),
                           color: Colors.amber,
                           borderRadius: BorderRadius.circular(75),
                         ),
                       ),
                       Container(
-                        height: 80,
-                        width: 80,
+                        height: 50,
+                        width: 50,
                         decoration: BoxDecoration(
+                          image: DecorationImage(
+                            image: AssetImage('assets/images/facebook.png'),
+                            fit: BoxFit.cover,
+                          ),
                           color: Colors.amber,
                           borderRadius: BorderRadius.circular(75),
                         ),
